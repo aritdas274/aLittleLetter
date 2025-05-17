@@ -4,6 +4,8 @@ function animateBox() {
       document.getElementById('deb').classList.toggle('animate2');
       document.getElementById('question').classList.toggle('animate4');
       document.getElementById('box1').classList.toggle('animate5');
+      var audio = document.getElementById("myAudio");
+    audio.play();
     }
 
 function next1() {
