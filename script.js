@@ -1,11 +1,12 @@
 function animateBox() {
+      var audio = document.getElementById("myAudio");
+    audio.play();
       document.getElementById('button').classList.toggle('animate1');
       document.getElementById('image').classList.toggle('animate3');
       document.getElementById('deb').classList.toggle('animate2');
       document.getElementById('question').classList.toggle('animate4');
       document.getElementById('box1').classList.toggle('animate5');
-      var audio = document.getElementById("myAudio");
-    audio.play();
+      
     }
 
 function next1() {
