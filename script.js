@@ -1,5 +1,5 @@
 function animateBox() {
-      var audio = document.getElementById("myAudio");
+      const audio = document.getElementById("myAudio");
     audio.play();
       document.getElementById('button').classList.toggle('animate1');
       document.getElementById('image').classList.toggle('animate3');
