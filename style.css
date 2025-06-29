@@ -11,7 +11,7 @@ body {
 
 #deb {
     filter: blur(100px);
-}
+}/*Delete this and previous two lines to unblur the background image*/
 
     @keyframes fadeout {
       0%   { opacity: 100%; }
@@ -79,7 +79,7 @@ animation: fadein2 2s ease-in-out forwards;
     padding: 5px;
     font-size: 10vw;
     border: 2px solid #a9172f;
-    border-radius: 5px;
+    border-radius: 20px;
     font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
