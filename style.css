@@ -10,7 +10,7 @@ body {
 }
 
 #deb {
-    filter: blur(100px);
+    filter: blur(0px);
 }/*Delete this and previous two lines to unblur the background image*/
 
     @keyframes fadeout {
@@ -433,4 +433,5 @@ ul{
   font-style: normal;
   font-size: 10vw;
 }
+
 
